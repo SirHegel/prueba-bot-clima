@@ -1,0 +1,40 @@
+# === Entornos virtuales ===
+.venv/
+venv/
+env/
+
+# === Variables de entorno (secretos) ===
+.env
+.env*.local
+.env.production
+.env.staging
+
+# === Python cache ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# === Logs ===
+*.log
+
+# === Bases de datos locales ===
+*.db
+*.sqlite
+*.sqlite3
+
+# === Certificados y claves ===
+*.key
+*.pem
+*.cert
+
+# === IDEs y editores ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === OS ===
+.DS_Store
+Thumbs.db
